@@ -27,23 +27,23 @@ import {
   render() {
     return (
 
-        <Navbar color="dark" className="bg-dark my-nav" expand="md">
+        <Navbar dark className="bg-dark my-nav" expand="md">
           <div className="container">
-          <NavbarBrand href="/">Alkhadra</NavbarBrand>
+          <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Home</NavLink>
+                <NavLink href="/components/" activeClassName="active">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">About</NavLink>
+                <NavLink href="/components/" activeClassName="active">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Project</NavLink>
+                <NavLink href="/components/" activeClassName="active">Project</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Contact</NavLink>
+                <NavLink href="/components/" activeClassName="active">Contact</NavLink>
               </NavItem>
 
             </Nav>
