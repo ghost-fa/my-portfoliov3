@@ -1,9 +1,10 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Philosopher');
 
-body {
-  margin: 1rem;
-}
+$headings-font-family: 'Cinzel Decorative', cursive;
+$font-family-base: 'Merriweather', sans-serif;
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-.header {
-  margin-bottom: 1rem;
+.my-nav {
+  font-family: $headings-font-family;
+  font-size: 20px;
 }
