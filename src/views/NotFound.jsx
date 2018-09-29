@@ -7,9 +7,11 @@ class NotFound extends Component {
   render() {
     return (
       <Fragment>
-        <main className="notfound container m-auto">
+        <main className="notfound container d-flex">
+          <div className="m-auto display-1 text-center text-danger">
         <h1>Error : 404</h1>
         <p>Sorry Mabye You Type Somting Wron Try Agin</p>
+        </div>
         </main>
       </Fragment>
     );
