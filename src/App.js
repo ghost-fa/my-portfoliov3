@@ -6,6 +6,7 @@ import Home from './views/Home';
 import About from './views/About'
   import Project from './views/Project'
 import SingleProject from './views/SingleProject'
+import NotFound from './views/NotFound'
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends Component {
       <Route path="/" component={About} exact />
       <Route path="/" component={Project} exact />
       <Route path="/projects/:id" component={SingleProject} exact />
+      <Route path="/notfound" component={NotFound} exact/>
       <Footer />
       </Fragment>
     </BrowserRouter>
