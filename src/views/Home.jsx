@@ -12,7 +12,6 @@ class Home extends Component {
        <div className="my-imag img-fluid">
 
        </div>
-
        <h1 className="h1 text-black  roll-in-left text-center">
          Welcome To My First Project Online
        </h1>

@@ -9,7 +9,7 @@ class About extends Component{
   render() {
     return (
       <Fragment>
-
+  
 <main  className="container m-auto ">
 <h2 className="mt-5 text-center roll-in-blurred-right">About</h2>
 <h3 className="text-center">let me tell you somthing about me</h3>
