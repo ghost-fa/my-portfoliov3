@@ -10,9 +10,9 @@ class About extends Component{
   render() {
     return (
       <Fragment>
-
-<main  id="About"  className="container m-auto">
-<h2 className="mt-5 text-center roll-in-blurred-right">About</h2>
+ <div  id="About">
+<main   className="container m-auto">
+<h2 className="mt-5 mb-5 text-center roll-in-blurred-right">About</h2>
 <h3 className="text-center">let me tell you somthing about me</h3>
 
 
@@ -34,7 +34,7 @@ class About extends Component{
 
 </main>
 
-
+</div>
       </Fragment>
     )
   }

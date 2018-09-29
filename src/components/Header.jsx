@@ -27,7 +27,7 @@ import {
   render() {
     return (
 
-        <Navbar dark className="bg-dark my-nav" expand="md">
+        <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
           <div className="container">
           <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
@@ -43,7 +43,7 @@ import {
                 <NavLink href="#Project" activeClassName="active">Project</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/" activeClassName="active">Contact</NavLink>
+                <NavLink href="#Contact" activeClassName="active">Contact</NavLink>
               </NavItem>
 
             </Nav>

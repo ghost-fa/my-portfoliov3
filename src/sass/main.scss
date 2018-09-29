@@ -17,6 +17,7 @@ h2{
 }
 
 
+
 .cart-image{
   height: 200px;
 
@@ -25,10 +26,17 @@ h2{
   height: 77vh;
 }
 
+textarea {
+  width: 100%;
+  height: 270px;
+}
+
+
+
 .my-imag{
   background-image: url("../images/Mansmall.jpg");
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 85vh;
   background-size:cover;
   background-position: center;
   }
