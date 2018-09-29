@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Study from '../components/Study'
 import Me from '../images/my-foto2.png'
+import CV from '../components/CV.jsx';
 
 class About extends Component{
   componentDidMount() {
@@ -9,8 +10,8 @@ class About extends Component{
   render() {
     return (
       <Fragment>
-  
-<main  className="container m-auto ">
+
+<main  id="About"  className="container m-auto">
 <h2 className="mt-5 text-center roll-in-blurred-right">About</h2>
 <h3 className="text-center">let me tell you somthing about me</h3>
 
@@ -28,11 +29,12 @@ class About extends Component{
   </div>
 
 
-
+  <Study />
+  <CV />
 
 </main>
 
-<Study />
+
       </Fragment>
     )
   }

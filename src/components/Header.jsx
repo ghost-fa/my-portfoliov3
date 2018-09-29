@@ -34,13 +34,13 @@ import {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/" activeClassName="active">Home</NavLink>
+                <NavLink href="#Home" activeClassName="active">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/" activeClassName="active">About</NavLink>
+                <NavLink href="#About" activeClassName="active">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/" activeClassName="active">Project</NavLink>
+                <NavLink href="#Project" activeClassName="active">Project</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/components/" activeClassName="active">Contact</NavLink>

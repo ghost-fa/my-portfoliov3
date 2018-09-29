@@ -13,11 +13,13 @@ class App extends Component {
         <BrowserRouter>
       <Fragment >
       <Header />
-      <Route path="/" component={Home} exact />
-      <Route path="/" component={About} exact />
+      <Route path="/" component={Home} />
+      <Route path="/" component={About} />
+      <Switch>
       <Route path="/" component={Project} exact />
       <Route path="/projects/:id" component={SingleProject} exact />
       <Route path="/notfound" component={NotFound} exact/>
+      </Switch>
       <Footer />
       </Fragment>
     </BrowserRouter>
