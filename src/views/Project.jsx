@@ -13,7 +13,7 @@ class Project extends Component {
   render() {
     return (
       <Fragment>
-
+<h2 className="text-center m-5">Project</h2>
         <Row className="container m-auto ">
 
           {projects.map((project, i) => (
@@ -36,7 +36,7 @@ class Project extends Component {
                     </Badge>
                   ))}
                 </div>
-                <Link className="btn btn-dark  text-align-center" to={`/projects/${i}`}>
+                <Link className="btn btn-dark text-align-center" to={`/projects/${i}`}>
                   go to project > >
 </Link>
               </CardBody>

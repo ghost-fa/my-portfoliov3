@@ -5,17 +5,17 @@ import Header from './components/Header';
 import Home from './views/Home';
 import About from './views/About'
   import Project from './views/Project'
-
+import SingleProject from './views/SingleProject'
 class App extends Component {
   render() {
     return (
         <BrowserRouter>
       <Fragment >
       <Header />
-      <Home />
-      <About />
-      <Project />
-
+      <Route path="/" component={Home} exact />
+      <Route path="/" component={About} exact />
+      <Route path="/" component={Project} exact />
+      <Route path="/projects/:id" component={SingleProject} exact />
       <Footer />
       </Fragment>
     </BrowserRouter>
