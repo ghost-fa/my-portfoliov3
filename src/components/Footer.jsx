@@ -13,10 +13,11 @@ const Footer = () => {
   return (
     <Fragment>
 
-      <footer className="mt-5 bg-dark text-light p-0">
+      <footer className="mt-5 bg-dark  text-light p-0">
 
         <div className="container ">
           <Contact />
+
           <div className="row">
             <p className=" col-6 ">&copy; Copyright Fayad 2018.</p>
             <div className="text-right  col-6">
@@ -46,7 +47,11 @@ const Footer = () => {
               </p>
             </div>
           </div>
+          <div className="text-center top">
+              <a href="#top">^</a>
+              </div>
         </div>
+
       </footer>
     </Fragment>
   );

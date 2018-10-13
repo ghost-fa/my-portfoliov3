@@ -23,7 +23,7 @@ class Project extends Component {
               </CardBody>
               <CardImg
                 className="cart-image"
-                width="100%"
+                width="50%"
                 src={project.thumbnailUrl}
                 alt={project.title}
               />

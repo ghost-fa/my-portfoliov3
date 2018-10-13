@@ -1,27 +1,34 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { spring, AnimatedSwitch } from 'react-router-transition'
 import Footer from './components/Footer';
-import Header from './components/Header';
 import Home from './views/Home';
-import About from './views/About'
-  import Project from './views/Project'
+import NavBar from './components/navBar';
+import Sproject from './views/SProject';
+
+
+import Project from './views/Project'
 import SingleProject from './views/SingleProject'
 import Contact from './views/Contact'
 import NotFound from './views/NotFound'
+
+
+
+
 class App extends Component {
   render() {
     return (
         <BrowserRouter>
       <Fragment >
-      <Header />
-      <Route path="/" component={Home} />
-      <Route path="/" component={About} />
+        <NavBar />
+<Switch>
+        <Route path="/" component={Home} exact/>
 
-      <Switch>
-      <Route path="/" component={Project} exact />
-      <Route path="/projects/:id" component={SingleProject} exact />
-      <Route path="/notfound" component={NotFound} exact/>
-      </Switch>
+          <Route path="/projects/:id" component={SingleProject} exact />
+        <Route path="/singleproject" component={SingleProject} exact />
+
+      <Route  component={NotFound} exact/>
+    </Switch>
 
       <Footer />
       </Fragment>
@@ -31,3 +38,41 @@ class App extends Component {
 }
 
 export default App;
+
+
+//
+// function mapStyles(styles) {
+//   return {
+//     opacity: styles.opacity,
+//     transform: `scale(${styles.scale})`,
+//   };
+// }
+//
+// // wrap the `spring` helper to use a bouncy config
+// function bounce(val) {
+//   return spring(val, {
+//     stiffness: 330,
+//     damping: 22,
+//   });
+// }
+//
+// // child matches will...
+// const bounceTransition = {
+//   // start in a transparent, upscaled state
+//   atEnter: {
+//     opacity: 0,
+//     scale: 1.2,
+//
+//   },
+//   // leave in a transparent, downscaled state
+//   atLeave: {
+//     opacity: bounce(0),
+//     scale: bounce(0.8),
+//
+//   },
+//   // and rest at an opaque, normally-scaled state
+//   atActive: {
+//     opacity: bounce(1),
+//     scale: bounce(1),
+//   },
+// };
