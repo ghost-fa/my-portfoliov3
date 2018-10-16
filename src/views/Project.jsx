@@ -17,7 +17,7 @@ class Project extends Component {
 
           {projects.map((project, i) => (
             <Col sm="12" md="6" lg="4" key={i} >
-            <Card  className="mt-2">
+            <Card  className="mt-2 figure">
               <CardBody>
                 <CardTitle>{project.title}</CardTitle>
               </CardBody>
@@ -35,8 +35,8 @@ class Project extends Component {
                     </Badge>
                   ))}
                 </div>
-                <Link className="btn btn-dark text-align-center" to={`/projects/${i}`}>
-                  go to project > >
+                <Link className="btn btn-dark text-align-center mt-3" to={`/projects/${i}`}>
+                  See Project
 </Link>
               </CardBody>
 

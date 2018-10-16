@@ -39,6 +39,17 @@ textarea{
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.figure img {
+   -webkit-filter: blur(3px);
+   filter: blur(3px);
+   -webkit-transition: 0.3s ease-in-out;
+   transition: 0.3s ease-in-out;
+ }
+ .figure:hover img {
+   -webkit-filter: blur(0);
+   filter: blur(0);
+ }
+
 
 .CV a{
   text-decoration: none;
