@@ -14,16 +14,18 @@ class Home extends Component {
 
 
 <div id="Home">
-       <div  className="my-imag img-fluid">
+       <div  className="d-flex flex-column img-fluid justify-content-center my-imag text-white text-center ">
 
-         <h2 className="name scale-in-center  ">I Am Fayad Alkhadra</h2>
-         <p className="scale-in-center front">Front End Development</p>
-<button  type="button" className="btn btn-outline-danger centered mt-5 scale-in-center"><a href="#About"> More About Me</a></button>
+         <h2 className="scale-in-center name mb-2">I Am Fayad Alkhadra</h2>
+         <p className="scale-in-center postion">| Front End Development |</p>
+         <div>
+<button  type="button" className="btn btn-outline-danger centered scale-in-center btn-lg"><a href="#About"> More About Me</a></button>
+       </div>
        </div>
        <About />
        <Project />
 </div>
-<i class="fas fa-arrow-down"></i>
+
       </Fragment>
     );
   }

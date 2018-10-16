@@ -39,34 +39,19 @@ textarea{
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.name{
-  position: absolute;
-  top: 40%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  color: white;
-  text-decoration: none;
-}
-.front{
-  position: absolute;
-  top: 50%;
-  left: 38%;
-  transform: translate(-50%, -50%);
-  font-size: 35px;
-  color: white;
 
-}
-.centered {
-    position: absolute;
-    top: 60%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-}
 .CV a{
   text-decoration: none;
   color:white;
 
+}
+.name{
+  font-size: 3.2rem;
+  text-decoration: none;
+
+}
+.postion{
+  font-size: 2.5rem;
 }
 .centered a{
   text-decoration: none;
