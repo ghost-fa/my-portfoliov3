@@ -2,7 +2,7 @@
 
   {
     "title": "Choos Voice",
-    "description": "you can teyp anything you want and choos wich language and ply with the voice",
+    "description": "you can teyp anything you want and choos wich language and ply with the sound",
     "imageUrl": "/images-project/voices.png",
     "thumbnailUrl": "/images-project/voices.png",
     "projectUrl": "https://github.com/ghost-fa/the-voice",
@@ -13,7 +13,7 @@
 
   {
     "title": "Tic-Tac-Game",
-    "description": "A small game X and O",
+    "description": "A small game X and O can play with two person",
     "imageUrl": "/images-project/tic-tac.jpeg",
     "thumbnailUrl": "/images-project/tic-tac.jpeg",
     "projectUrl": "https://github.com/ghost-fa/tic-tac-game",
@@ -45,13 +45,13 @@
     "description": "you can choose a image ",
     "imageUrl": "/images-project/chosseimgs.png",
     "thumbnailUrl": "/images-project/chosseimgs.png",
-    "projectUrl": "https://github.com/ghost-fa/the-voice",
+    "projectUrl": "https://github.com/ghost-fa/choose-images",
     "onlineUrl":" https://ghost-fa.github.io/choose-images/",
-    "tags": ["javascript", "bootstrap", "css", "html"]
+    "tags": ["javascript", "react", "material-ui"]
   },
   {
     "title": "Stars Game",
-    "description": "A small game make you thing wich number you must choos",
+    "description": "A small game make you thing wich number you must choose",
     "imageUrl": "/images-project/play-nani.jpeg",
     "thumbnailUrl": "/images-project/play-nani.jpeg",
     "projectUrl": "https://github.com/ghost-fa/game-kids/tree/master/src",

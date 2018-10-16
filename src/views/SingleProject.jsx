@@ -9,17 +9,17 @@ const SingleProject = (props) => {
   const project = Project[props.match.params.id];
   return (
     <Container>
-      <Card className="m-5">
-        <CardBody>
+      <Card className="mt-5">
+        <CardBody className="mt-3">
 
           <CardTitle>{project.title}</CardTitle>
 
         </CardBody>
         <img width="100%" src={project.thumbnailUrl} alt="Card cap" />
-        <CardBody>
+        <CardBody className="text-center">
           <CardText>{project.description}</CardText>
-          <CardLink href={project.projectUrl}>github</CardLink>
-          <CardLink href={project.onlineUrl}>demo</CardLink>
+          <CardLink href={project.projectUrl}><button className="btn btn-dark "> github </button></CardLink>
+          <CardLink href={project.onlineUrl}><button className="btn btn-dark "> demo </button></CardLink>
         </CardBody>
       </Card>
     </Container>
