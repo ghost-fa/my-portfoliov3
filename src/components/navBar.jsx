@@ -24,6 +24,7 @@ import {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
 
@@ -31,7 +32,7 @@ import {
           <div className="container">
           <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse isOpen={this.state.isOpen} className="Collaps" navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="/#Home" activeClassName="active">Home</NavLink>

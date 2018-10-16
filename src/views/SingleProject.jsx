@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardText, CardBody, CardLink,
+import { Card,Badge, CardText, CardBody, CardLink,
   CardTitle, Container } from 'reactstrap';
   import { withRouter } from "react-router-dom";
 
@@ -18,6 +18,13 @@ const SingleProject = (props) => {
         <img width="100%" src={project.thumbnailUrl} alt="Card cap" />
         <CardBody className="text-center">
           <CardText>{project.description}</CardText>
+          <div>
+            {project.tags.map(tag => (
+              <Badge key={tag} className="ml-2" >
+                {tag}
+              </Badge>
+            ))}
+          </div>
           <CardLink href={project.projectUrl}><button className="btn btn-dark "> github </button></CardLink>
           <CardLink href={project.onlineUrl}><button className="btn btn-dark "> demo </button></CardLink>
         </CardBody>

@@ -23,9 +23,7 @@ class App extends Component {
         <NavBar />
 <Switch>
         <Route path="/" component={Home} exact/>
-
-          <Route path="/projects/:id" component={SingleProject} exact />
-      
+      <Route path="/projects/:id" component={SingleProject} exact />
 
       <Route  component={NotFound} exact/>
     </Switch>

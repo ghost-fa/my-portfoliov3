@@ -27,5 +27,8 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scrollable-anchor": "^0.6.1"
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import { Form,Col,Button, FormGroup, Label, Input, FormFeedback, FormText } from 'reactstrap';
 
 class Contact extends Component {
   componentDidMount() {
@@ -8,14 +8,10 @@ class Contact extends Component {
   }
   render() {
     return (
-      <Fragment>
-
-<h2 id="Contact" className="text-center pt-5 ">Contact</h2>
-
-        <Form method="POST" action="https://formspree.io/fayyad_r22@yahoo.com" className="bg-dark  container m-auto">
-
-
-              <FormGroup>
+<Fragment>
+      <h2 id="Contact" className="text-center pt-5 description display-4 ">Contact</h2>
+         <Form method="POST" action="https://formspree.io/fayyad_r22@yahoo.com" className="bg-dark  container m-auto">
+               <FormGroup>
            <Label for="Name" >Name</Label>
            <Input invalid  placeholder="Type Your Name" required/>
          </FormGroup>
@@ -31,7 +27,7 @@ class Contact extends Component {
    <Button className="mb-5  text-white col-lg-2 col-12 btn btn-outline-danger">Send</Button>
    </div>
         </Form>
-      </Fragment>
+        </Fragment>
     );
   }
 }
