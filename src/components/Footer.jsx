@@ -7,14 +7,12 @@ import {
   faGithub,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
-import Contact from '../views/Contact.jsx'
+import Contact from '../views/Contact.jsx';
 
 const Footer = () => {
   return (
     <Fragment>
-
       <footer className="mt-5 bg-dark  text-light p-0">
-
         <div className="container ">
           <Contact />
 
@@ -29,7 +27,10 @@ const Footer = () => {
                   />
                 </a>
                 <a href="https://www.linkedin.com/in/fayad-alkhadra-577248170/">
-                  <FontAwesomeIcon className="h2 pl-2 text-light" icon={faLinkedin} />
+                  <FontAwesomeIcon
+                    className="h2 pl-2 text-light"
+                    icon={faLinkedin}
+                  />
                 </a>
 
                 <a href="https://github.com/ghost-fa">
@@ -47,9 +48,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
         </div>
-
       </footer>
     </Fragment>
   );

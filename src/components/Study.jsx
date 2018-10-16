@@ -24,15 +24,10 @@ const Study = () => {
           me I reall want to learn more
         </p>
 
-
         <h3 className="">my skills:</h3>
         <div className="row  text-center mt-5">
           <div className="col-lg-4 col-6 col-sm=2">
-
-              <FontAwesomeIcon
-                className="text-dark display-2"
-                icon={faGithub}
-              />
+            <FontAwesomeIcon className="text-dark display-2" icon={faGithub} />
 
             <p>Git</p>
           </div>
@@ -58,23 +53,23 @@ const Study = () => {
             <FontAwesomeIcon
               className="display-2 col-lg-12  bg-warning text-center"
               icon={faJsSquare}
-            /><p className="text-center">JavaScript</p>
-
+            />
+            <p className="text-center">JavaScript</p>
           </div>
 
           <div className="col-lg-4 col-6">
             <FontAwesomeIcon
               className="display-2 col-lg-4  text-primary text-center"
               icon={faReact}
-            /><p className="text-center">React</p>
-
+            />
+            <p className="text-center">React</p>
           </div>
           <div className="col-lg-4 col-6 text-center m-auto">
             <FontAwesomeIcon
               className="display-2 col-lg-4  text-primary text-center"
               icon={faNode}
-            /><p className="text-center">Node.js</p>
-
+            />
+            <p className="text-center">Node.js</p>
           </div>
         </div>
       </main>

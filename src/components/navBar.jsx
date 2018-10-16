@@ -1,5 +1,5 @@
 import React from 'react';
-import { Component } from 'react'
+import { Component } from 'react';
 import {
   Collapse,
   Navbar,
@@ -7,10 +7,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  } from 'reactstrap';
+  NavLink
+} from 'reactstrap';
 
- class Header extends Component {
+class Header extends Component {
   constructor(props) {
     super(props);
 
@@ -27,32 +27,37 @@ import {
 
   render() {
     return (
-
-        <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
-          <div className="container">
+      <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
+        <div className="container">
           <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} className="Collaps" navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/#Home" activeClassName="active">Home</NavLink>
+                <NavLink href="/#Home" activeClassName="active">
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#About" activeClassName="active">About</NavLink>
+                <NavLink href="/#About" activeClassName="active">
+                  About
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#Project" activeClassName="active">Project</NavLink>
+                <NavLink href="/#Project" activeClassName="active">
+                  Project
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#Contact" activeClassName="active">Contact</NavLink>
+                <NavLink href="/#Contact" activeClassName="active">
+                  Contact
+                </NavLink>
               </NavItem>
-
             </Nav>
           </Collapse>
-          </div>
-        </Navbar>
-
+        </div>
+      </Navbar>
     );
   }
 }
-export default Header
+export default Header;
