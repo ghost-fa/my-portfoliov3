@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import About from './About';
 import Project from './Project';
-
+import Contact from '../views/Contact.jsx';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 
@@ -32,6 +32,7 @@ class Home extends Component {
             </div>
             <About />
             <Project />
+            <Contact />
           </div>
         </div>
       </ScrollableAnchor>

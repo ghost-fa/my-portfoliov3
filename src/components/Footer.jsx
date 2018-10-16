@@ -7,15 +7,12 @@ import {
   faGithub,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
-import Contact from '../views/Contact.jsx';
 
 const Footer = () => {
   return (
     <Fragment>
       <footer className="mt-5 bg-dark  text-light p-0">
         <div className="container ">
-          <Contact />
-
           <div className="row">
             <p className=" col-6 ">&copy; Copyright Fayad 2018.</p>
             <div className="text-right  col-6">
