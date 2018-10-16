@@ -24,7 +24,7 @@
 
   {
     "title": "Roll Dice",
-    "description": "A small game",
+    "description": "A small game gave you different number when the dice rolling",
     "imageUrl": "/images-project/roll-dice.jpeg",
     "thumbnailUrl": "/images-project/roll-dice.jpeg",
     "projectUrl": "https://github.com/ghost-fa/Roll-Dice",
@@ -42,7 +42,7 @@
   },
   {
     "title": "Choos Your Image",
-    "description": "you can choose a image ",
+    "description": "you can search for any image you like",
     "imageUrl": "/images-project/chosseimgs.png",
     "thumbnailUrl": "/images-project/chosseimgs.png",
     "projectUrl": "https://github.com/ghost-fa/choose-images",
