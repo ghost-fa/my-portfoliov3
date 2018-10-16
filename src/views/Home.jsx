@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react';
-
 import About from './About';
-
 import Project from './Project'
 
 
@@ -15,7 +13,7 @@ class Home extends Component {
       <Fragment>
 
 
-<div id="Home" id="top">
+<div id="Home">
        <div  className="my-imag img-fluid">
 
          <h2 className="name scale-in-center  ">I Am Fayad Alkhadra</h2>
@@ -25,7 +23,7 @@ class Home extends Component {
        <About />
        <Project />
 </div>
-
+<i class="fas fa-arrow-down"></i>
       </Fragment>
     );
   }

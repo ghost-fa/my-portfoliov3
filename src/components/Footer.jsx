@@ -47,9 +47,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="text-center top">
-              <a href="#top">^</a>
-              </div>
+        
         </div>
 
       </footer>

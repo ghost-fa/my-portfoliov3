@@ -7,7 +7,8 @@ import {
   faCss3,
   faSass,
   faJsSquare,
-  faReact
+  faReact,
+  faNode
 } from '@fortawesome/free-brands-svg-icons';
 
 const Study = () => {
@@ -66,6 +67,13 @@ const Study = () => {
               className="display-2 col-lg-4  text-primary text-center"
               icon={faReact}
             /><p className="text-center">React</p>
+
+          </div>
+          <div className="col-lg-4 col-6 text-center m-auto">
+            <FontAwesomeIcon
+              className="display-2 col-lg-4  text-primary text-center"
+              icon={faNode}
+            /><p className="text-center">Node.js</p>
 
           </div>
         </div>

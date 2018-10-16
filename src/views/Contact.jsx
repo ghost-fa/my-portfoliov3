@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import { Form, FormGroup, Label, Input, FormFeedback, FormText, Button } from 'reactstrap';
+import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 
 class Contact extends Component {
   componentDidMount() {

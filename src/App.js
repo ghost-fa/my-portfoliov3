@@ -1,15 +1,15 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { spring, AnimatedSwitch } from 'react-router-transition'
+
 import Footer from './components/Footer';
 import Home from './views/Home';
 import NavBar from './components/navBar';
-import Sproject from './views/SProject';
 
 
-import Project from './views/Project'
+
+
 import SingleProject from './views/SingleProject'
-import Contact from './views/Contact'
+
 import NotFound from './views/NotFound'
 
 
@@ -25,7 +25,7 @@ class App extends Component {
         <Route path="/" component={Home} exact/>
 
           <Route path="/projects/:id" component={SingleProject} exact />
-        <Route path="/singleproject" component={SingleProject} exact />
+      
 
       <Route  component={NotFound} exact/>
     </Switch>

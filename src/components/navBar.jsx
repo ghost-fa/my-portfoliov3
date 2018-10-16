@@ -27,7 +27,7 @@ import {
   render() {
     return (
 
-        <Navbar dark className="bg-dark my-nav " expand="md">
+        <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
           <div className="container">
           <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
