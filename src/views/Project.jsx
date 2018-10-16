@@ -40,7 +40,7 @@ class Project extends Component {
                   />
                   <CardBody>
                     <Link
-                      className="btn btn-dark text-align-center mt-3"
+                      className="btn btn-dark text-align-center mt-2 mb-5"
                       to={`/projects/${i}`}
                     >
                       See Project

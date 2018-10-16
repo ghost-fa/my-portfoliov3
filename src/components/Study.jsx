@@ -15,16 +15,7 @@ const Study = () => {
   return (
     <Fragment>
       <main className="container">
-        <h2 className="mt-5 text-center  ">What I Study </h2>
-
-        <p className="col-12 mb-3 text-center">
-          I study now web development. I like it so much and I hope I can learn
-          more and more. I learn in DEVUGEES. When you are developer you will
-          not stop learning. When I started I fell in love with coding, it makes
-          me I reall want to learn more
-        </p>
-
-        <h3 className="">my skills:</h3>
+        <h3 className="mt-5 text-center description display-4">my skills:</h3>
         <div className="row  text-center mt-5">
           <div className="col-lg-4 col-6 col-sm=2">
             <FontAwesomeIcon className="text-dark display-2" icon={faGithub} />

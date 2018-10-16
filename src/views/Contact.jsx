@@ -32,8 +32,8 @@ class Contact extends Component {
             action="https://formspree.io/fayyad_r22@yahoo.com"
             className="  container m-auto"
           >
-            <FormGroup className="form-group">
-              <Label className="form-label " for="Name">
+            <FormGroup className="form-group ">
+              <Label className="form-label" for="Name">
                 Name
               </Label>
               <Input
