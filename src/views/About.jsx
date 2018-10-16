@@ -27,13 +27,12 @@ class About extends Component {
               <img src={Me} alt="my foto" className="my  " />
 
               <p className="text-center  p-5">
-                {' '}
                 I am Fayad Alkhadra, a junoir Full Stack Web Developer with
                 accounting and managment experiences. after arriving to Germany
                 in 2014, all my openions and ideas about work was changed so I
                 decided to start a new career starting from the point that web
-                development is the future ,then I found my opportunity at DCI,
-                where I started my first step being a developer.{' '}
+                development is the future, then I found my opportunity at DCI,
+                where I started my first step being a developer.
               </p>
             </div>
 
