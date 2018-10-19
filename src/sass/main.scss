@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Philosopher');
-
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 $headings-font-family: 'Cinzel Decorative', cursive;
 $font-family-base: 'Merriweather', sans-serif;
 @import '../../node_modules/bootstrap/scss/bootstrap';
@@ -15,39 +15,66 @@ h2 {
   line-height: 40px;
 }
 
+p {
+  font-size: 28px;
+}
+.copy {
+  font-size: 20px;
+}
 .cart-image {
   height: 150px;
 }
 .notfound {
   height: 77vh;
 }
-
 textarea {
   resize: none;
 }
 .form-label {
-  color: #000;
+  color: black;
   margin: 0;
   display: block;
   opacity: 1;
   -webkit-transition: 0.333s ease top, 0.333s ease opacity;
   transition: 0.333s ease top, 0.333s ease opacity;
-  width: 50%;
-  margin: auto;
+  font-family: serif;
   font-size: 20px;
 }
+
 .form-control {
   border-radius: 0;
   border-color: #ccc;
   border-width: 0 0 2px 0;
   border-style: none none solid none;
   box-shadow: none;
-  width: 50%;
-  margin: auto;
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: #421414;
+  border-color: #4a0909;
+}
+.js-hide-label {
+  opacity: 0;
+}
+.js-unhighlight-label {
+  color: #999;
+}
+.btn-start-order {
+  background: 0 0 #ffffff;
+  border: 1px solid #2f323a;
+  border-radius: 3px;
+  color: #2f323a;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,
+.btn-start-order:active,
+.btn-start-order:focus {
+  border-color: #5e9bfc;
+  color: #5e9bfc;
 }
 
 .figure img {
@@ -63,7 +90,6 @@ textarea {
 
 .CV a {
   text-decoration: none;
-  color: white;
 }
 .name {
   font-size: 3.2rem;
@@ -84,10 +110,10 @@ textarea {
   background-position: center;
 }
 
-.my {
-  width: 300px;
-  height: 300px;
-  border-radius: 60px;
+.me {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
 }
 
 .description {
@@ -97,7 +123,7 @@ textarea {
   font-family: $headings-font-family;
 }
 .description:first-letter {
-  color: red;
+  color: #3e0808;
   border-bottom: 3px solid #3e0808;
   font-size: 5rem;
 }

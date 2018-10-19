@@ -29,10 +29,10 @@ const SingleProject = props => {
               </Badge>
             ))}
           </div>
-          <CardLink href={project.projectUrl}>
+          <CardLink target="_blank" href={project.projectUrl}>
             <button className="btn btn-dark "> github </button>
           </CardLink>
-          <CardLink href={project.onlineUrl}>
+          <CardLink target="_blank" href={project.onlineUrl}>
             <button className="btn btn-dark "> demo </button>
           </CardLink>
         </CardBody>

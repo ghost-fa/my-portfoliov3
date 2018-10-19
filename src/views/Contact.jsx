@@ -23,53 +23,88 @@ class Contact extends Component {
   render() {
     return (
       <ScrollableAnchor id={'Contact'}>
-        <div>
-          <h2 className="text-center pt-5 description display-4  mt-5">
-            Contact
-          </h2>
-          <Form
-            method="POST"
-            action="https://formspree.io/fayyad_r22@yahoo.com"
-            className="  container m-auto"
-          >
-            <FormGroup className="form-group ">
-              <Label className="form-label" for="Name">
-                Name
-              </Label>
-              <Input
-                className="form-control"
-                placeholder="Type Your Name"
-                required
-              />
-            </FormGroup>
-            <FormGroup className="form-group">
-              <Label className="form-label" for="Email">
-                Email
-              </Label>
-              <Input
-                className="form-control"
-                placeholder="Type Your Email"
-                required
-              />
-            </FormGroup>
-            <FormGroup className="form-group">
-              <Label className="form-label" for="Message">
-                Message
-              </Label>
-              <Input
-                className="form-control"
-                type="textarea"
-                name="text"
-                required
-              />
-            </FormGroup>
-            <div className="text-center">
-              <Button className="mb-5 col-lg-2 col-12 btn btn-outline-dark">
-                Send
-              </Button>
+        <main className="contact container mt-5 ">
+          <div className="row">
+            <div className=" col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <h2 className="description display-4 mb-5">Contact</h2>
             </div>
-          </Form>
-        </div>
+            <h3 className="text-center m-auto  ">
+              please fill free to contact me if you like to work togther
+            </h3>
+          </div>
+          <div className="row d-flex justify-content-center mt-5">
+            <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+              <form
+                id="contact-form "
+                className="form"
+                action="#"
+                method="POST"
+              >
+                <div className="form-group">
+                  <label className="form-label h3" for="name">
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control h3"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    tabindex="1"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label h3" for="email">
+                    Your Email
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control h3"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    tabindex="2"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label h3" for="subject">
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control h3"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    tabindex="3"
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label" for="message">
+                    Message
+                  </label>
+                  <textarea
+                    rows="5"
+                    cols="50"
+                    name="message"
+                    className="form-control h3"
+                    id="message"
+                    placeholder="Message..."
+                    tabindex="4"
+                    required
+                  />
+                </div>
+                <div className="text-center">
+                  <button type="submit" className="btn btn-outline-dark">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </main>
       </ScrollableAnchor>
     );
   }

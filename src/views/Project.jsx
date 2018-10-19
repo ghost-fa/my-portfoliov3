@@ -24,29 +24,22 @@ class Project extends Component {
       <ScrollableAnchor id={'Project'}>
         <div>
           <h2 className="text-center description display-4 m-5">Project</h2>
-
           <Row className="container m-auto ">
             {projects.map((project, i) => (
               <Col sm="12" md="6" lg="4" key={i}>
-                <Card className="mt-2 figure">
-                  <CardBody>
-                    <CardTitle>{project.title}</CardTitle>
-                  </CardBody>
-                  <CardImg
-                    className="cart-image"
-                    width="50%"
-                    src={project.thumbnailUrl}
-                    alt={project.title}
-                  />
-                  <CardBody>
-                    <Link
-                      className="btn btn-dark text-align-center mt-2 mb-5"
-                      to={`/projects/${i}`}
-                    >
-                      See Project
-                    </Link>
-                  </CardBody>
-                </Card>
+                <CardImg
+                  className="cart-image"
+                  width="50%"
+                  src={project.thumbnailUrl}
+                  alt={project.title}
+                />
+
+                <Link
+                  className="btn btn-dark  text-center  mt-2 mb-5"
+                  to={`/projects/${i}`}
+                >
+                  See Project
+                </Link>
               </Col>
             ))}
           </Row>

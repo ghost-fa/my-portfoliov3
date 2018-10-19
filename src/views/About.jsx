@@ -5,7 +5,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 
 import Study from '../components/Study';
-import Me from '../images/my-foto2.png';
+import Me from '../images/me.jpg';
 import CV from '../components/CV.jsx';
 configureAnchors({ offset: -60, scrollDuration: 800 });
 
@@ -24,7 +24,7 @@ class About extends Component {
 
             <h3 className="text-center">let me tell you somthing about me</h3>
             <div className="left text-center ">
-              <img src={Me} alt="my foto" className="my  " />
+              <img src={Me} alt="my-pictior" className="me" />
 
               <p className="text-center  p-5">
                 I am Fayad Alkhadra, a junoir Full Stack Web Developer with
