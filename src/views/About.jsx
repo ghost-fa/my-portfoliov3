@@ -10,9 +10,6 @@ import CV from '../components/CV.jsx';
 configureAnchors({ offset: -60, scrollDuration: 800 });
 
 class About extends Component {
-  componentDidMount() {
-    document.title = 'About | Fayad Alkhadra';
-  }
   render() {
     return (
       <Fragment>

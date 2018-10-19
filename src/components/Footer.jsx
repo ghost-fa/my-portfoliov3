@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faFacebookSquare,
   faLinkedin,
   faGithub,
   faInstagram
@@ -18,8 +17,9 @@ const Footer = () => {
             <div className="text-right  col-6">
               <p>
                 <a
-                  target="_blank"
                   href="https://www.linkedin.com/in/fayad-alkhadra-577248170/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
                     className="h1 pl-2 text-light"
@@ -27,15 +27,20 @@ const Footer = () => {
                   />
                 </a>
 
-                <a target="_blank" href="https://github.com/ghost-fa">
+                <a
+                  href="https://github.com/ghost-fa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon
                     className="text-light pl-2 h1"
                     icon={faGithub}
                   />
                 </a>
                 <a
-                  target="_blank"
                   href="https://www.instagram.com/fayyadfre/?hl=de"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon
                     className="text-light pl-2 h1"

@@ -1,13 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import {
-  Card,
-  CardBody,
-  CardTitle,
-  Badge,
-  Row,
-  Col,
-  CardImg
-} from 'reactstrap';
+import React, { Component } from 'react';
+import { Row, Col, CardImg } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import projects from '../projects.json';
 

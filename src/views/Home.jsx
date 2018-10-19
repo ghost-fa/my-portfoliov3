@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import About from './About';
 import Project from './Project';
 import Contact from '../views/Contact.jsx';

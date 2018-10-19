@@ -1,15 +1,4 @@
-import React, { Component, Fragment } from 'react';
-
-import {
-  Form,
-  Col,
-  Button,
-  FormGroup,
-  Label,
-  Input,
-  FormFeedback,
-  FormText
-} from 'reactstrap';
+import React, { Component } from 'react';
 
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
@@ -17,9 +6,6 @@ import { configureAnchors } from 'react-scrollable-anchor';
 configureAnchors({ offset: -60, scrollDuration: 1000 });
 
 class Contact extends Component {
-  componentDidMount() {
-    document.title = 'Contact | Fayad Alkhadra';
-  }
   render() {
     return (
       <ScrollableAnchor id={'Contact'}>
@@ -41,7 +27,7 @@ class Contact extends Component {
                 method="POST"
               >
                 <div className="form-group">
-                  <label className="form-label h3" for="name">
+                  <label className="form-label h3" htmlFor="name">
                     Your Name
                   </label>
                   <input
@@ -50,12 +36,12 @@ class Contact extends Component {
                     id="name"
                     name="name"
                     placeholder="Your name"
-                    tabindex="1"
+                    tabIndex="1"
                     required
                   />
                 </div>
                 <div className="form-group">
-                  <label className="form-label h3" for="email">
+                  <label className="form-label h3" htmlFor="email">
                     Your Email
                   </label>
                   <input
@@ -64,12 +50,12 @@ class Contact extends Component {
                     id="email"
                     name="email"
                     placeholder="Your Email"
-                    tabindex="2"
+                    tabIndex="2"
                     required
                   />
                 </div>
                 <div className="form-group">
-                  <label className="form-label h3" for="subject">
+                  <label className="form-label h3" htmlFor="subject">
                     Subject
                   </label>
                   <input
@@ -78,11 +64,11 @@ class Contact extends Component {
                     id="subject"
                     name="subject"
                     placeholder="Subject"
-                    tabindex="3"
+                    tabIndex="3"
                   />
                 </div>
                 <div className="form-group">
-                  <label className="form-label" for="message">
+                  <label className="form-label" htmlFor="message">
                     Message
                   </label>
                   <textarea
@@ -92,7 +78,7 @@ class Contact extends Component {
                     className="form-control h3"
                     id="message"
                     placeholder="Message..."
-                    tabindex="4"
+                    tabIndex="4"
                     required
                   />
                 </div>
