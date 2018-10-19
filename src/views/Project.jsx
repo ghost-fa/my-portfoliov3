@@ -16,18 +16,18 @@ class Project extends Component {
       <ScrollableAnchor id={'Project'}>
         <div>
           <h2 className="text-center description display-4 m-5">Project</h2>
-          <Row className="container m-auto ">
+          <Row className="container m-auto text-center ">
             {projects.map((project, i) => (
-              <Col sm="12" md="6" lg="4" key={i}>
+              <Col sm="12" md="6" lg="4" className="figure" key={i}>
                 <CardImg
-                  className="cart-image"
+                  className="cart-image "
                   width="50%"
                   src={project.thumbnailUrl}
-                  alt={project.title}
+                  alt="project"
                 />
 
                 <Link
-                  className="btn btn-dark  text-center  mt-2 mb-5"
+                  className="btn btn-dark col-sm-6 col-lg-6 col-md-6 text-center  mt-2 mb-5"
                   to={`/projects/${i}`}
                 >
                   See Project
