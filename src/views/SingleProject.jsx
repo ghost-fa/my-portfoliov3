@@ -19,29 +19,29 @@ class SingleProject extends Component {
   render() {
     const project = Project[this.props.match.params.id];
     return (
-      <Container>
-        <Card className="mt-5">
-          <CardBody className="mt-3">
-            <CardTitle>{project.title}</CardTitle>
-          </CardBody>
-          <img width="100%" src={project.thumbnailUrl} alt="Card cap" />
-          <CardBody className="text-center">
-            <CardText>{project.description}</CardText>
-            <div>
-              {project.tags.map(tag => (
-                <Badge key={tag} className="ml-2">
-                  {tag}
-                </Badge>
-              ))}
-            </div>
-            <CardLink target="_blank" href={project.projectUrl}>
-              <button className="btn btn-dark "> github </button>
-            </CardLink>
-            <CardLink target="_blank" href={project.onlineUrl}>
-              <button className="btn btn-dark "> demo </button>
-            </CardLink>
-          </CardBody>
-        </Card>
+      <Container className="text-center">
+        <CardBody className="mt-3 ">
+          <CardTitle className=" mt-5">{project.title}</CardTitle>
+        </CardBody>
+
+        <img className="imgSingle " src={project.thumbnailUrl} alt="Card cap" />
+
+        <CardBody className="text-center">
+          <CardText>{project.description}</CardText>
+          <div>
+            {project.tags.map(tag => (
+              <Badge key={tag} className="ml-2">
+                {tag}
+              </Badge>
+            ))}
+          </div>
+          <CardLink target="_blank" href={project.projectUrl}>
+            <button className="btn btn-dark "> github </button>
+          </CardLink>
+          <CardLink target="_blank" href={project.onlineUrl}>
+            <button className="btn btn-dark "> demo </button>
+          </CardLink>
+        </CardBody>
       </Container>
     );
   }
