@@ -1,19 +1,17 @@
 [
-
   {
-    "title": "Choos Voice",
-    "description": "you can teyp anything you want and choos wich language and ply with the sound",
+    "title": "Choose The Voice",
+    "description": "Type anything, choose the language and hear it played.",
     "imageUrl": "/images-project/voices.png",
     "thumbnailUrl": "/images-project/voices.png",
     "projectUrl": "https://github.com/ghost-fa/the-voice",
-    "onlineUrl":" https://ghost-fa.github.io/the-voice/",
+    "onlineUrl": " https://ghost-fa.github.io/the-voice/",
     "tags": ["javascript", "bootstrap", "css", "html"]
   },
 
-
   {
-    "title": "Tic-Tac-Game",
-    "description": "A small game X and O can play with two person",
+    "title": "Tic-Tac-Toe",
+    "description": "A simple game for two people",
     "imageUrl": "/images-project/tic-tac.jpeg",
     "thumbnailUrl": "/images-project/tic-tac.jpeg",
     "projectUrl": "https://github.com/ghost-fa/tic-tac-game",
@@ -21,10 +19,9 @@
     "tags": ["html", "sass", "react", "jsx"]
   },
 
-
   {
-    "title": "Roll Dice",
-    "description": "A small game gave you different number when the dice rolling",
+    "title": "Roll The Dice",
+    "description": "Click and roll the dice.",
     "imageUrl": "/images-project/roll-dice.jpeg",
     "thumbnailUrl": "/images-project/roll-dice.jpeg",
     "projectUrl": "https://github.com/ghost-fa/Roll-Dice",
@@ -32,31 +29,38 @@
   },
 
   {
-    "title": "Shooping Cart List",
-    "description": "A small app to Shooping List",
+    "title": "Shopping Cart List",
+    "description": "Shooping List App",
     "imageUrl": "/images-project/shopping.jpg",
     "thumbnailUrl": "/images-project/shopping.jpg",
     "projectUrl": "https://github.com/ghost-fa/shopping-cart-list",
-    "onlineUrl":"https://ghost-fa.github.io/shopping-cart-list/",
+    "onlineUrl": "https://ghost-fa.github.io/shopping-cart-list/",
     "tags": ["react", "jsx", "bootstrap", "sass", "html"]
   },
   {
-    "title": "Choos Your Image",
-    "description": "you can search for any image you like",
+    "title": "Choose an Image",
+    "description": "Choose any image.",
     "imageUrl": "/images-project/chosseimgs.png",
     "thumbnailUrl": "/images-project/chosseimgs.png",
     "projectUrl": "https://github.com/ghost-fa/choose-images",
-    "onlineUrl":" https://ghost-fa.github.io/choose-images/",
+    "onlineUrl": " https://ghost-fa.github.io/choose-images/",
     "tags": ["javascript", "react", "material-ui"]
   },
   {
-    "title": "Stars Game",
-    "description": "A small game make you thing wich number you must choose",
+    "title": "Challenge Nine",
+    "description": "A game of choice.",
     "imageUrl": "/images-project/play-nani.jpeg",
     "thumbnailUrl": "/images-project/play-nani.jpeg",
     "projectUrl": "https://github.com/ghost-fa/game-kids/tree/master/src",
-    "onlineUrl":" https://ghost-fa.github.io/game-kids/",
-    "tags": ["javascript","lodash","react","sass", "bootstrap", "html","fontawesome"]
+    "onlineUrl": " https://ghost-fa.github.io/game-kids/",
+    "tags": [
+      "javascript",
+      "lodash",
+      "react",
+      "sass",
+      "bootstrap",
+      "html",
+      "fontawesome"
+    ]
   }
-
 ]

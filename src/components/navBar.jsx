@@ -34,22 +34,38 @@ class Header extends Component {
           <Collapse isOpen={this.state.isOpen} className="Collaps" navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/#Home" activeclassname="active">
+                <NavLink
+                  onClick={this.toggle}
+                  href="/#Home"
+                  activeclassname="active"
+                >
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#About" activeclassname="active">
+                <NavLink
+                  onClick={this.toggle}
+                  href="/#About"
+                  activeclassname="active"
+                >
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#Project" activeclassname="active">
+                <NavLink
+                  onClick={this.toggle}
+                  href="/#Project"
+                  activeclassname="active"
+                >
                   Project
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/#Contact" activeclassname="active">
+                <NavLink
+                  onClick={this.toggle}
+                  href="/#Contact"
+                  activeclassname="active"
+                >
                   Contact
                 </NavLink>
               </NavItem>

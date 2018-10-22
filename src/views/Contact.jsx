@@ -15,7 +15,7 @@ class Contact extends Component {
               <h2 className="description display-4 mb-5">Contact</h2>
             </div>
             <h3 className="text-center m-auto  ">
-              please fill free to contact me if you like to work togther
+              Feel free to contact me if you are intrested.
             </h3>
           </div>
           <div className="row d-flex justify-content-center mt-5">
@@ -28,7 +28,7 @@ class Contact extends Component {
               >
                 <div className="form-group">
                   <label className="form-label h3" htmlFor="name">
-                    Your Name
+                    Name
                   </label>
                   <input
                     type="text"
@@ -42,7 +42,7 @@ class Contact extends Component {
                 </div>
                 <div className="form-group">
                   <label className="form-label h3" htmlFor="email">
-                    Your Email
+                    Email
                   </label>
                   <input
                     type="email"
@@ -84,7 +84,7 @@ class Contact extends Component {
                 </div>
                 <div className="text-center">
                   <button type="submit" className="btn btn-outline-dark">
-                    Send Message
+                    SEND
                   </button>
                 </div>
               </form>
