@@ -23,7 +23,7 @@ class Contact extends Component {
               <form
                 id="contact-form "
                 className="form"
-                action="#"
+                action="https://formspree.io/fayyad_r22@yahoo.com"
                 method="POST"
               >
                 <div className="form-group">
@@ -48,7 +48,7 @@ class Contact extends Component {
                     type="email"
                     className="form-control h3"
                     id="email"
-                    name="email"
+                    name="_replyto"
                     placeholder="Your Email"
                     tabIndex="2"
                     required
