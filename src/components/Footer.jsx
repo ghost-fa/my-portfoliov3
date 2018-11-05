@@ -10,8 +10,8 @@ import {
 const Footer = () => {
   return (
     <Fragment>
-      <footer className="mt-5 bg-dark  text-light p-0">
-        <div className="container ">
+      <footer className="mt-5 bg-dark  text-light p-0 ">
+        <div className="container">
           <div className="row">
             <p className=" col-6 copy">&copy; Copyright Fayad 2018.</p>
             <div className="text-right  col-6">

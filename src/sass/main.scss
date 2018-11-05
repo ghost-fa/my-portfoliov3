@@ -90,10 +90,6 @@ textarea {
   -webkit-filter: blur(0);
   filter: blur(0);
 }
-.imgSingle {
-  width: 700px;
-  height: 650px;
-}
 
 .CV a {
   text-decoration: none;
@@ -101,10 +97,12 @@ textarea {
 .name {
   font-size: 3.5rem;
   text-decoration: none;
+  line-height: normal;
 }
 .postion {
   font-size: 2.3rem;
 }
+
 .centered a {
   text-decoration: none;
   color: white;
@@ -115,6 +113,14 @@ textarea {
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+img {
+  width: auto;
+  height: 650px;
+}
+.imgSingle {
+  width: auto;
+  height: 400px;
 }
 
 .me {

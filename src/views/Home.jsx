@@ -18,7 +18,7 @@ class Home extends Component {
           <div>
             <div className="d-flex flex-column img-fluid justify-content-center my-imag text-white text-center ">
               <h2 className="scale-in-center name mb-2">Fayad Alkhadra</h2>
-              <p className="scale-in-center postion">Full Stack Developer</p>
+              <p className="scale-in-center postion">Web Developer</p>
               <div>
                 <button
                   type="button"
