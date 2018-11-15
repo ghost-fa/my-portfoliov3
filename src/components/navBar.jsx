@@ -33,7 +33,7 @@ class Header extends Component {
     return (
       <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
         <div className="container">
-          <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
+          <NavbarBrand href="/#Home" className="text-light">Alkhadra</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse
             isOpen={this.state.isOpen}

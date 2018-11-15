@@ -5,7 +5,7 @@
     "imageUrl": "/images-project/voices.png",
     "thumbnailUrl": "/images-project/voices.png",
     "projectUrl": "https://github.com/ghost-fa/the-voice",
-    "onlineUrl": " https://ghost-fa.github.io/the-voice/",
+    "onlineUrl": "https://ghost-fa.github.io/the-voice/",
     "tags": ["javascript", "bootstrap", "css", "html"]
   },
 
@@ -35,7 +35,7 @@
     "thumbnailUrl": "/images-project/shopping.jpg",
     "projectUrl": "https://github.com/ghost-fa/shopping-cart-list",
     "onlineUrl": "https://ghost-fa.github.io/shopping-cart-list/",
-    "tags": ["react", "jsx", "bootstrap", "sass", "html"]
+    "tags": ["react", "bootstrap", "sass", "html"]
   },
   {
     "title": "Choose an Image",

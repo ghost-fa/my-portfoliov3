@@ -17,6 +17,7 @@ class SingleProject extends Component {
 
   render() {
     const project = Project[this.props.match.params.id];
+    console.log(project);
     return (
       <Container className="text-center">
         <CardBody className="mt-3 ">
