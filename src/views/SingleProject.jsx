@@ -18,7 +18,7 @@ class SingleProject extends Component {
   render() {
     const project = Project[this.props.match.params.id];
     return (
-      <Container className="text-center   ">
+      <Container className="text-center">
         <CardBody className="mt-3 ">
           <CardTitle className=" mt-5 ">{project.title}</CardTitle>
         </CardBody>
