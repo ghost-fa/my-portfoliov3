@@ -22,12 +22,21 @@ class About extends Component {
             <div className="left text-center ">
               <img src={Me} alt="my-pictior" className="me" />
 
+<<<<<<< HEAD
               <p className="text-center">
                 I am Fayad Alkhadra, a junior Full Stack Web Developer with a
                 background in accounting and management. In 2014, when I arrived
                 in Germany, I decided to take up a new career, working in web
                 development. I found my opportunity at DCI, where I took my
                 first step at being a web developer.
+=======
+              <p className="text-center ">
+                I am Fayad Alkhadra, a junior Web Developer with a background in
+                accounting and management. In 2014, when I arrived in Germany, I
+                decided to take up a new career, working in web development. I
+                found my opportunity at DCI, where I took my first step at being
+                a web developer.
+>>>>>>> b8c964364b7f31cbed4da93c2dadf6d168bb822e
               </p>
             </div>
 

@@ -21,11 +21,14 @@ class SingleProject extends Component {
     return (
       <Container className="text-center">
         <CardBody className="mt-3 ">
-          <CardTitle className=" mt-5">{project.title}</CardTitle>
+          <CardTitle className=" mt-5 ">{project.title}</CardTitle>
         </CardBody>
 
-        <img className="imgSingle " src={project.thumbnailUrl} alt="Card cap" />
-
+        <img
+          className="imgSingle col-sm-12"
+          src={project.thumbnailUrl}
+          alt="Card cap"
+        />
         <CardBody className="text-center">
           <CardText>{project.description}</CardText>
           <div>

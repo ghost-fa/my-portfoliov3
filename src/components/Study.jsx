@@ -8,7 +8,9 @@ import {
   faSass,
   faJsSquare,
   faReact,
-  faNode
+  faNode,
+  faEnvira,
+  faNpm
 } from '@fortawesome/free-brands-svg-icons';
 
 const Study = () => {
@@ -61,6 +63,20 @@ const Study = () => {
               icon={faNode}
             />
             <p className="text-center">Node.js</p>
+          </div>
+          <div className="col-lg-4 col-6 text-center m-auto">
+            <FontAwesomeIcon
+              icon={faNpm}
+              className="display-2 col-lg-12 text-warning "
+            />
+            <p className="text-center ">NPM & Yarn</p>
+          </div>
+          <div className="col-lg-4 col-6  text-center">
+            <FontAwesomeIcon
+              icon={faEnvira}
+              className="text-success display-2"
+            />
+            <p className="text-center ">MongoDB</p>
           </div>
         </div>
       </main>
