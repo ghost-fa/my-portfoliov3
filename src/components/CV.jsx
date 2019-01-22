@@ -9,7 +9,7 @@ const CV = () => {
       </div>
       <div className="container d-flex mt-5 mb-5">
         <a
-          href="../CV/resume.pdf"
+          href="../CV/resume-F-Alkhadra.pdf"
           download="resume.pdf"
           className="CV m-auto btn btn-outline-dark"
         >
